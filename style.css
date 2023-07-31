@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+img{
+    height: 40px;
+}
+#nav-2{
+    display: flex;
+    gap: 55px;    
+    text-transform: uppercase;
+}
+#nav-3{
+    
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+#login{
+    font-weight: 700;
+    background-color: #000;
+    padding: 15px 20px;
+    border: #000;
+     font-size: 15px;
+     letter-spacing: 1.1px;
+}
+#get-started{
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 15px 20px;
+    color: #000;
+    border: none;
+    letter-spacing: 1.1px;
+}
+#main h1{
+font-size: 130px;
+text-align: center;
+text-transform: uppercase;
+padding: 20px 40px;
+margin: 0 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+letter-spacing: 1.1px;
+font-weight: 900;
+
+}
+
+#main h1 span {
+    background-color: rgb(126, 56, 54);
+    font-size: 34px;
+    font-weight: 900;
+    padding: 30px 40px;
+    margin: 0 20px;
+    border-radius: 50px;  
+      letter-spacing: 1.1px;
+}
+#main h1:nth-child(2){
+    margin-top: 60px;
+}
+#main #purse{
+    height: 270px;
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    border-radius: 20px;
+}
+
+#main #perfume{
+    height: 270px;
+    position: absolute;
+    bottom: 14%;
+    right: 5%;
+    border-radius: 20px;
+}
+
+
+h5{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    font-size: 19px;
+    transform: translate(-50%,0);
+}
