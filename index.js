@@ -1,6 +1,6 @@
 var t1=gsap.timeline()
 
-t1.from("#nav logo, #nav h3, #nav button",{
+t1.from("#nav #logo, #nav h3, #nav button",{
     y:-100,
     duration:1,
     delay:1,
